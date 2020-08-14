@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "facing=north": { "model": "vanillaadditions:block/netherrack_furnace" },
+    "facing=east":  { "model": "vanillaadditions:block/netherrack_furnace", "y":  90},
+    "facing=south": { "model": "vanillaadditions:block/netherrack_furnace", "y": 180 },
+    "facing=west":  { "model": "vanillaadditions:block/netherrack_furnace", "y": 270 }
+  }
+}

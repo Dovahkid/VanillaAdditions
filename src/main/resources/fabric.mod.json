@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaadditions",
+  "version": "${version}",
+  "name": "Vanilla Additions",
+  "description": "Adds small additions through out minecraft that has a vanilla feel",
+  "authors": [
+    "Error003"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/vanilla.additions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.error003.vanilla.additions.client.VanillaAdditionsClient"
+    ],
+    "main": [
+      "net.error003.vanilla.additions.VanillaAdditions"
+    ]
+  },
+  "mixins": [
+    "vanilla.additions.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.9.1+build.205",
+    "fabric": "*",
+    "minecraft": "1.16.2"
+  }
+}
